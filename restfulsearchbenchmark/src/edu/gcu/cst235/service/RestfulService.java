@@ -1,4 +1,4 @@
-package edu.gcu.cst235;
+package edu.gcu.cst235.service;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.Response;
 
-import edu.gcu.cst235.worker.*;
+import edu.gcu.cst235.service.worker.*;
 
 /**
  * web service searches for and returns the number of times a word appears in a text file (Romans 8)
